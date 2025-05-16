@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
 	<ShortName>Bluesky</ShortName>	
 	<LongName>Bluesky Social</LongName>
 	<Description>Social media as it should be. Find your community among millions of users, unleash your creativity, and have some fun again.</Description>
