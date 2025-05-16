@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
 	<ShortName>Yep</ShortName>
 	<LongName>Yep: the private, revenue-sharing search engine</LongName>
 	<Description>Yep is the search engine that shares ad profit with creators and protects your privacy.</Description>
