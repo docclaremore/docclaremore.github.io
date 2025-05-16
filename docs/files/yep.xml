@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription>
+	<ShortName>Yep</ShortName>
+	<LongName>Yep: the private, revenue-sharing search engine</LongName>
+	<Description>Yep is the search engine that shares ad profit with creators and protects your privacy.</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<Image width="16" height="16" type="image/x-icon">https://cdn.yep.com/static/meta/favicon.ico</Image>
+	<Image width="64" height="64" type="image/png">https://yep.com/assets/opensearch-64x64.png</Image>
+	<Url type="text/html" template="https://yep.com/web?q={searchTerms}"/>
+	<Url type="application/x-suggestions+json" template="https://api.yep.com/ac/"><Param name="query" value="{searchTerms}"/><Param name="os" value="true"/></Url>
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://docclaremore.cc/files/yep.xml"/>
+	<Query role="example" searchTerms="YepBot"/>
+	<Tags>later Ahrefs</Tags>
+	<Developer>kdocc</Developer>
+	<Contact>howdy@kdocc.net</Contact>
+</OpenSearchDescription>
