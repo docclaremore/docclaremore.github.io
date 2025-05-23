@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>arctd</ShortName>
+	<LongName>archive.today</LongName>
+	<Description>create a copy of a webpage that will always be up</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<Image width="16" height="16" type="image/x-icon">https://archive.today/favicon.ico</Image>
+	<Image width="64" height="64" type="image/png">https://archive.today/apple-touch-icon-144x144.png</Image>
+	<Url type="text/html" template="https://archive.today/search/?q={searchTerms}"/>
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://docclaremore.cc/files/archivetoday.xml"/>
+	<Query role="example" searchTerms="https://docclaremore.cc/"/>
+	<Tags>later archive.today</Tags>
+	<Developer>kdocc</Developer>
+	<Contact>howdy@kdocc.net</Contact>
+</OpenSearchDescription>
