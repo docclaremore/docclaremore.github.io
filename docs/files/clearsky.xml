@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>ClearSky</ShortName>
+	<LongName>ClearSky Search</LongName>
+	<Description>ClearSky: See farther</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<Image width="16" height="16" type="image/png">https://clearsky.app/assets/favicon-BYZgEK1c.png</Image>
+	<Image width="64" height="64" type="image/png">https://clearsky.app/assets/apple-touch-icon-ChlDXGRm.png</Image>
+	<Url type="text/html" template="https://clearsky.app/{searchTerms}/"/>
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://docclaremore.cc/files/clearsky.xml"/>
+	<Query role="example" searchTerms="kdocc.net"/>
+	<Tags>later ClearSky</Tags>
+	<Developer>kdocc</Developer>
+	<Contact>howdy@kdocc.net</Contact>
+</OpenSearchDescription>
