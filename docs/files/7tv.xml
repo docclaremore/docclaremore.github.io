@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>7TV</ShortName>
+	<LongName>7TV Search</LongName>
+	<Description>The emote platform for all</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<Image width="16" height="16" type="image/svg+xml">https://7tv.app/favicon.svg</Image>
+	<Image width="64" height="64" type="image/svg+xml">https://7tv.app/favicon.svg</Image>
+	<Url type="text/html" template="https://7tv.app/emotes?q={searchTerms}"/>
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://docclaremore.net/files/7tv.xml"/>
+	<Query role="example" searchTerms="ABOBA"/>
+	<Tags>later 7TV</Tags>
+	<Developer>kdocc</Developer>
+	<Contact>howdy@kdocc.net</Contact>
+</OpenSearchDescription>

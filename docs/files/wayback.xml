@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>Wayback</ShortName>
+	<LongName>Internet Archive: Wayback Machine</LongName>
+	<Description>Explore more than 946 billion web pages saved over time</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<Image width="16" height="16" type="image/x-icon">https://archive.org/favicon.ico</Image>
+	<Image width="64" height="64" type="image/png">https://archive.org/apple-touch-icon.png</Image>
+	<Url type="text/html" template="https://web.archive.org/web/20250000000000*/{searchTerms}"/>
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://docclaremore.cc/files/wayback.xml"/>
+	<Query role="example" searchTerms="https://docclaremore.cc/"/>
+	<Tags>later Wayback</Tags>
+	<Developer>kdocc</Developer>
+	<Contact>howdy@kdocc.net</Contact>
+</OpenSearchDescription>
