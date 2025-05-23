@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+	<ShortName>PDSls</ShortName>
+	<LongName>PDSls search</LongName>
+	<Description>Browse and manage atproto repositories</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<Image width="16" height="16" type="icon">https://pdsls.dev/favicon.png</Image>
+	<Image width="64" height="64" type="image/png">https://pdsls.dev/favicon.png</Image>
+	<Url type="text/html" template="https://pdsls.dev/at://{searchTerms}"/>
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://docclaremore.cc/files/pdsls.xml"/>
+	<Query role="example" searchTerms="kdocc.net"/>
+	<Tags>later pdsls</Tags>
+	<Developer>kdocc</Developer>
+	<Contact>howdy@kdocc.net</Contact>
+</OpenSearchDescription>
